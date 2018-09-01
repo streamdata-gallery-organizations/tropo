@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.
 x-kinRank: "7"
 x-alexaRank: "641468"
 tags: Tropo
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-31"
+modified: "2018-08-31"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,7 +18,7 @@ apis:
   humanURL: https://www.tropo.com/
   baseURL: https://api.tropo.com//v1/
   tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
-    Mobile, Telecommunications, Messages, Relative Data, Service API
+    Mobile, Telecommunications, Messages, Relative Data, Service API, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/applications-delete-postman.md
@@ -31,7 +31,7 @@ apis:
   humanURL: https://www.tropo.com/
   baseURL: https://api.tropo.com//v1/
   tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
-    Mobile, Telecommunications, Messages, Relative Data, Service API
+    Mobile, Telecommunications, Messages, Relative Data, Service API, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/applications-get-postman.md
@@ -44,7 +44,7 @@ apis:
   humanURL: https://www.tropo.com/
   baseURL: https://api.tropo.com//v1/
   tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
-    Mobile, Telecommunications, Messages, Relative Data, Service API
+    Mobile, Telecommunications, Messages, Relative Data, Service API, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/applications-post-postman.md
@@ -57,7 +57,7 @@ apis:
   humanURL: https://www.tropo.com/
   baseURL: https://api.tropo.com//v1/
   tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
-    Mobile, Telecommunications, Messages, Relative Data, Service API
+    Mobile, Telecommunications, Messages, Relative Data, Service API, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/applications-put-postman.md
@@ -70,7 +70,7 @@ apis:
   humanURL: https://www.tropo.com/
   baseURL: https://api.tropo.com//v1/
   tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
-    Mobile, Telecommunications, Messages, Relative Data, Service API
+    Mobile, Telecommunications, Messages, Relative Data, Service API, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/applicationsappidaddresses-delete-postman.md
@@ -83,7 +83,7 @@ apis:
   humanURL: https://www.tropo.com/
   baseURL: https://api.tropo.com//v1/
   tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
-    Mobile, Telecommunications, Messages, Relative Data, Service API
+    Mobile, Telecommunications, Messages, Relative Data, Service API, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/applicationsappidaddresses-get-postman.md
@@ -96,7 +96,7 @@ apis:
   humanURL: https://www.tropo.com/
   baseURL: https://api.tropo.com//v1/
   tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
-    Mobile, Telecommunications, Messages, Relative Data, Service API
+    Mobile, Telecommunications, Messages, Relative Data, Service API, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/applicationsappidaddresses-post-postman.md
@@ -109,7 +109,7 @@ apis:
   humanURL: https://www.tropo.com/
   baseURL: https://api.tropo.com//v1/
   tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
-    Mobile, Telecommunications, Messages, Relative Data, Service API
+    Mobile, Telecommunications, Messages, Relative Data, Service API, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/exchanges-get-postman.md
@@ -122,7 +122,7 @@ apis:
   humanURL: https://www.tropo.com/
   baseURL: https://api.tropo.com//v1/
   tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
-    Mobile, Telecommunications, Messages, Relative Data, Service API
+    Mobile, Telecommunications, Messages, Relative Data, Service API, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/tropo/master/_listings/tropo/sessions-post-postman.md
@@ -161,6 +161,8 @@ x-common:
   url: https://www.tropo.com/terms-policies/
 - type: x-twitter
   url: https://twitter.com/tropo
+- type: x-webhook
+  url: https://www.tropo.com/docs/webhooks
 - type: x-website
   url: https://www.tropo.com/
 - type: x-website
